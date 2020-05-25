@@ -6,10 +6,9 @@ version: 0.3.2
 icon: https://xmrig.com/assets/img/xmrig-logo.svg
 home: https://xmrig.com
 sources:
-  - https://github.com/metal3d/xmrig-docker
+  - https://github.com/jmztaylor/docker-xmrig
   - https://github.com/xmrig/xmrig
 
 maintainers:
-  - name: Patrice Ferlet
-    email: metal3d@gmail.com
-    url: https://www.metal3d.org
+  - name: James Taylor
+    email: jmz.taylor16@gmail.com@gmail.com

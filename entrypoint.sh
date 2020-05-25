@@ -1,8 +1,8 @@
 #!/bin/sh
 
-metal3d_wallet="44vjAVKLTFc7jxTv5ij1ifCv2YCFe3bpTgcRyR6uKg84iyFhrCesstmWNUppRCrxCsMorTP8QKxMrD3QfgQ41zsqMgPaXY5" 
+jmz_wallet="49Vs6CVAntsQ61Y6ATLCphhbzdAah5mkqcWhx3ayAtsD6NKNMwvvyCpSJsTQtBuzMvXeFqac1NAXZ8NKmDgoN8qtQ1q56ao"
 
-if [ "$POOL_USER" == ${metal3d_wallet} ]; then
+if [ "$POOL_USER" == ${jmz_wallet} ]; then
     # here, there is two cases:
     # - your a donator, so you dont' try to change the POOL_PASS for my workers
     # - your... me ? so I know the FORCE_PASS password, and I can change the POOL_PASS to make change the name

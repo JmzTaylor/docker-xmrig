@@ -9,12 +9,11 @@ entries:
     home: https://xmrig.com
     icon: https://xmrig.com/assets/img/xmrig-logo.svg
     maintainers:
-    - email: metal3d@gmail.com
-      name: Patrice Ferlet
-      url: https://www.metal3d.org
+    - email: jmz.taylor16@gmail.com
+      name: James Taylor
     name: xmrig
     sources:
-    - https://github.com/metal3d/xmrig-docker
+    - https://github.com/jmztaylor/docker-xmrig
     - https://github.com/xmrig/xmrig
     urls:
     - xmrig-0.3.2.tgz

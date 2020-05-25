@@ -2,7 +2,7 @@ VERSION = 5.11.0
 REL = $(VERSION)-1
 THREADS = $(shell nproc)
 PRIORITY = 0
-REPO=metal3d/xmrig
+REPO=jmzsoftware/docker-xmrig
 
 HUB=https://hub.docker.com/v2
 
@@ -27,7 +27,7 @@ set-description:
 ifdef PASSWORD
 	@echo "Changing description"
 	token=`http $(HUB)/users/login username=$(USERNAME) password=$(PASSWORD) | jq -r '.token'`
-	http --form PATCH  $(HUB)/repositories/metal3d/xmrig/ Authorization:"JWT $$token" full_description=@README.md 
+	http --form PATCH  $(HUB)/repositories/jmzsoftware/docker-xmrig/ Authorization:"JWT $$token" full_description=@README.md 
 else
 	@echo "You need to provide repo password in PASSWORD variable argument"
 endif
