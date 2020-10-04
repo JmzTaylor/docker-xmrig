@@ -1,5 +1,7 @@
 # Xmrig - Monero minner in Docker
 
+Deprectated as of March 2020
+
 [Xmrig](https://xmrig.com/) is an opensource project to mine Monero cryptocurrency. It allow you to mine locally for a "pool", and to get back Monero for your effort.
 
 Here, you can launch xmrig in a docker container to make it easy to launch it on Kubernetes, Swarm, or on local computer using standard docker command.
